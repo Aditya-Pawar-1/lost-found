@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300;500;600&display=swap");
+
+* {
+  font-family: "Caveat", cursive;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#lostForm {
+  color: #7149C6;
+  background-color: #f1f1f1;
+  width: 60vw;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+#lostForm label,
+#lostForm input,
+#lostForm textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#lostForm input,
+#lostForm textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+#lostForm Description {
+  height: 10vh;
+}
+
+#lostForm .button {
+  display: inline-block;
+  background-color: #7149C6;
+  color: #f1f1f1;
+  border: 4px solid blueviolet;
+  padding: 10px;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#lostForm .button:hover {
+  background-color: #723ce0;
+  color: #fff;
+}
+
+#lostForm h2 {
+  font-size: 40px;
+  font-style: oblique;
+  text-align: center;
+  color: #7149C6;
+}
+
+#AcademicYear,
+#Branch {
+  margin-left: 10px;
+  border: #7149C6 2px solid;
+}
+
+body {
+  background-color: royalblue;
+}
+
+@media (min-width: 250px) and (max-width: 650px) {
+  #container {
+    padding: 5% 0;
+  }
+
+  #lostForm {
+    width: 86vw;
+  }
+
+  #Description {
+    height: 15vh;
+  }
+
+  #lostForm input,
+  #lostForm textarea {
+    width: 100%;
+    padding: 5px;
+  }
+
+  #lostForm h2 {
+    font-size: 2rem;
+    font-style: oblique;
+    text-align: center;
+    color: #7149c6;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 930px) {
+  #lostForm {
+    width: 60vw;
+  }
+
+  #Description {
+    height: 15vh;
+  }
+
+  #lostForm input,
+  #lostForm textarea {
+    width: 100%;
+    padding: 5px;
+  }
+
+  #found h2 {
+    font-size: 2rem;
+    font-style: oblique;
+    text-align: center;
+    color: #7149c6;
+  }
+}
+
+@media (min-width: 1250px) {
+  #container {
+    padding: 5% 0;
+  }
+}

@@ -1,0 +1,75 @@
+/* Globle CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+}
+
+#FAQ {
+    background-color: #f1f1f1;
+    padding: 2% 5%;
+    margin: 5% 0;
+    width: 60%;
+    border-radius: 15px;
+    color: royalblue;
+}
+
+#FAQ h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+#FAQ p {
+    font-size: 1rem;
+}
+
+#FAQ ul {
+    list-style: decimal;
+    align-items: center;
+}
+
+#FAQ details {
+    padding-bottom: 2%;
+}
+
+.details-style {
+    width: 100%;
+    max-height: max-content;
+    padding: 0.2rem 2rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    border: 2px solid rebeccapurple;
+    transition: all 0.5s ease-in-out;
+}
+
+details[open].details-style {
+    background-color: rgba(0, 0, 0, 1);
+    max-height: max-content;
+    overflow: hidden;
+}
+
+.details-style summary {
+    outline: none;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 250px) and (max-width: 650px) {
+    #FAQ {
+        width: 90%;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 930px) {}
+
+@media (min-width: 1250px) {}
