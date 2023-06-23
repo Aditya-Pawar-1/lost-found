@@ -79,9 +79,9 @@ body {
   background-color: royalblue;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 330px) {
   #feedbackForm {
-    width: 80vw;
+    width: 100vw;
   }
 
   #feedback-description {
@@ -102,7 +102,7 @@ body {
   }
 }
 
-@media (min-width: 381px) and (max-width: 650px) {
+@media (min-width: 331px) and (max-width: 650px) {
   #feedbackForm {
     width: 80vw;
   }

@@ -79,9 +79,9 @@ body {
   background-color: royalblue;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 330px) {
   #contactForm {
-    width: 80vw;
+    width: 100vw;
   }
 
   #Description {
@@ -102,7 +102,7 @@ body {
   }
 }
 
-@media (min-width: 381px) and (max-width: 650px) {
+@media (min-width: 331px) and (max-width: 650px) {
   #contactForm {
     width: 80vw;
   }

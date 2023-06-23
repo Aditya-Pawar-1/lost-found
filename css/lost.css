@@ -78,7 +78,34 @@ body {
   background-color: royalblue;
 }
 
-@media (min-width: 250px) and (max-width: 650px) {
+@media (max-width: 330px){
+  #container {
+    padding: 5% 0;
+  }
+
+  #lostForm {
+    width: 100vw;
+  }
+
+  #Description {
+    height: 15vh;
+  }
+
+  #lostForm input,
+  #lostForm textarea {
+    width: 100%;
+    padding: 5px;
+  }
+
+  #lostForm h2 {
+    font-size: 2rem;
+    font-style: oblique;
+    text-align: center;
+    color: #4747EC;
+  }
+}
+
+@media (min-width: 331px) and (max-width: 650px) {
   #container {
     padding: 5% 0;
   }
