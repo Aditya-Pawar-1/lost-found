@@ -142,6 +142,10 @@ section {
         width: 60vw;
         height: auto;
     }
+
+    footer {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 381px) and (max-width: 650px) {
