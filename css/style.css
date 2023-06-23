@@ -50,11 +50,16 @@
     justify-content: center;
 }
 
-footer {
+footer, footer a{
+    display: flex;
+    justify-content: space-between;
     grid-area: footer;
     background-color: blue;
-    padding: 0.5rem;
-    color: #f1f1f1;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: aliceblue;
 }
 
 /* Home logo */
