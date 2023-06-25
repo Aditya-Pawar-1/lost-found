@@ -78,6 +78,34 @@ details[open].details-style {
     }
 }
 
-@media (min-width: 651px) and (max-width: 930px) {}
+@media (min-width: 651px) and (max-width: 930px) {
+    #FAQ {
+        width: 80vw;
+        padding-bottom: 2%;
+    }
 
-@media (min-width: 1250px) {}
+    #FAQ details {
+        margin-bottom: 3%;
+        font-size: 1.2rem;
+    }
+
+    #FAQ details[open].details-style {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1250px) {
+    #FAQ {
+        width: 80vw;
+        padding-bottom: 1%;
+    }
+
+    #FAQ details {
+        margin-bottom: 2%;
+        font-size: 1.2rem;
+    }
+
+    #FAQ details[open].details-style {
+        font-size: 1.6rem;
+    }
+}
