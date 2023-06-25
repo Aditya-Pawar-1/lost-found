@@ -62,9 +62,25 @@ footer, footer a{
     color: aliceblue;
 }
 
+footer span a {
+    display: inline;
+    padding-left: 0;
+    text-decoration: underline;
+}
+
 /* Home logo */
+header {
+    display: flex;
+    align-items: center;
+    column-gap: 2vw;
+}
+
 #logo {
     text-transform: capitalize;
+}
+
+#header-logo-image{
+    height: 15vh;
 }
 
 /* Navbar */
