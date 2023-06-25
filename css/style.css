@@ -64,7 +64,8 @@ footer, footer a{
 
 footer span a {
     display: inline;
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
     text-decoration: underline;
 }
 
@@ -135,14 +136,15 @@ section {
         grid-template-areas:
             "header"
             "nav"
-            "content1"
             "content2"
+            "content1"
             "footer";
     }
 
     nav ul li {
         display: flex;
         flex-direction: column;
+        row-gap: 2vh;
 
     }
 
@@ -174,8 +176,8 @@ section {
         grid-template-areas:
             "header"
             "nav"
-            "content1"
             "content2"
+            "content1"
             "footer";
     }
 
