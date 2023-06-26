@@ -12,7 +12,7 @@
   <div id="container">
     <section id="feedbackForm">
       <h2>feedback Form</h2>
-      <form action="https://formsubmit.co/4e288711be57353919544f7be5c5576b" method="POST" id="feedback">
+      <form action="https://formsubmit.co/4e288711be57353919544f7be5c5576b" method="POST" id="feedback" target="hiddenConfirmed" onsubmit="sunbmitted=true">
         <label for="Name">Name:</label>
         <input type="text" name="Name" placeholder="Your name" id="Name" />
 
@@ -61,6 +61,12 @@
       </form>
     </section>
   </div>
+
+
+  <script>
+    var sunbmitted=false
+  </script>
+  <iframe name="hiddenConfirmed" id="hiddenConfirmed" style="display: none;" onload="if(sunbmitted){window.location='submitform.html';}"></iframe>
 </body>
 
 </html>

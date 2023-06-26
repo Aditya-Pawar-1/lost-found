@@ -12,26 +12,26 @@
   <div id="container">
     <form
       action="https://formsubmit.co/4e288711be57353919544f7be5c5576b"
-      method="POST" id="lostForm">
+      method="POST" id="lostForm" target="hiddenConfirmed" onsubmit="sunbmitted=true">
       <h2>Report a Lost Item</h2>
       <label for="itemName">Item Name:</label>
-      <input type="text" id="itemName" name="entry.1233512994" required />
+      <input type="text" id="itemName" name="itemName" required />
 
       <label for="itemDescription">Item Description:</label>
-      <textarea id="itemDescription" name="entry.1931079031" required></textarea>
+      <textarea id="itemDescription" name="itemDescription" required></textarea>
 
       <label for="location">Location:</label>
-      <input type="text" id="location" placeholder="Location of Lost Item" name="entry.613807033" required />
+      <input type="text" id="location" placeholder="Location of Lost Item" name="location" required />
 
       <label for="dateLost">Date Lost:</label>
-      <input type="date" id="dateLost" name="entry.1179224165" required />
+      <input type="date" id="dateLost" name="dateLost" required />
 
       <label for="Name">Name:</label>
-      <input type="text" name="entry.267151887" placeholder="Your name" id="Name" required />
+      <input type="text" name="Name" placeholder="Your name" id="Name" required />
 
       <label for="AcademicYear">
         <legend>Academic Year:</legend>
-        <select name="entry.626975443" id="AcademicYear" required>
+        <select name="AcademicYear" id="AcademicYear" required>
           <option value="First">First</option>
           <option value="Second">Second</option>
           <option value="Third">Third</option>
@@ -41,7 +41,7 @@
 
       <label for="Branch">
         <legend>Branch:</legend>
-        <select name="entry.1552170424" id="Branch" required>
+        <select name="Branch" id="Branch" required>
           <option value="Computer Science & Design">
             Computer Science & Design
           </option>
@@ -64,10 +64,15 @@
       </label>
 
       <label for="contact">Contact:</label>
-      <input type="text" id="contact" placeholder="Your contact number" name="entry.1571417452" required />
+      <input type="text" id="contact" placeholder="Your contact number" name="contact" required />
       <button class="button" type="submit">Submit</button>
     </form>
   </div>
+
+  <script>
+    var sunbmitted=false
+  </script>
+  <iframe name="hiddenConfirmed" id="hiddenConfirmed" style="display: none;" onload="if(sunbmitted){window.location='submitform.html';}"></iframe>
 </body>
 
 </html>
