@@ -27,7 +27,7 @@
 
 .container>header {
     grid-area: header;
-    background-color: blue;
+    background-image: linear-gradient(darkblue, navy, blue);
     color: #f1f1f1;
     padding: 1rem;
 }
