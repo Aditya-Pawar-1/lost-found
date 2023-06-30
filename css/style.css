@@ -83,6 +83,7 @@ header {
 #header-logo-image{
     height: 15vh;
     border-radius: 50%;
+    opacity: 0.8;
 }
 
 /* Navbar */
