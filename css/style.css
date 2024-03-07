@@ -78,6 +78,7 @@ header {
     height: 15vh;
     border-radius: 50%;
     opacity: 0.8;
+    display: none;
 }
 
 /* Navbar */
