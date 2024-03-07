@@ -1,8 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300;500;600&display=swap");
-
 * {
-  font-family: "Caveat", cursive;
-  font-family: "Poppins", sans-serif;
+  font-family: Helvetica, Poppins, sans serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
